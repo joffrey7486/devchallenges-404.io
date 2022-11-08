@@ -1,0 +1,98 @@
+.nav-bar{
+    padding-top: 1.5rem!important;
+    padding-bottom: 1.5rem!important;
+}
+.title{
+    font-family: Inconsolata;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-align: left;
+
+}
+section{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.big-text{
+    font-family: Space Mono;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    text-align: left;
+}
+.little-text{
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    text-align: left;
+}
+.btn-404{
+    background: #333333;
+    height: 68px;
+    width: 216px;
+    left: 740px;
+    top: 663px;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt-btn{
+    font-family: Space Mono;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    text-align: left;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    padding-top: 20px;
+}
+footer a {
+    font-family: Montserrat;
+    color: #BDBDBD;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+@media only screen and (max-width: 600px) {
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 30px;
+    }
+    .big-text{
+        font-size: 46px;
+        line-height: 63px;
+    }  
+    .text-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+}
